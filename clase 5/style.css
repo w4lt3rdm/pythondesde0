@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: 0;}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+    background-image: linear-gradient(90deg,blue,white);
+#imagen{
+    width: 150px;
+    height: 150px;
+display:block;
+margin: auto;
+text-align: center;
+}
+#curriculum{
+    text-align: center;
+background-color: rgb(211, 208, 208);
+height: 50px;
+border: 20px;
+margin: 20px 0px;
+padding: 0%;
+}
+#datos{
+    text-align: center;
+    background-color: rgb(211, 208, 208);
+    height: 50px;
+    border: 20px;
+}
+#nombre{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+#formacion{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(211, 208, 208);
+    height: 50px;
+    border: 20px;
+    margin: 20px 0px;
+}
+#experiencia{ font-size: 20px;
+    text-align: center;
+    background-color:rgb(211, 208, 208);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 100px;
+ }
+ .contenedor a{
+    font-size: 30px;
+ }
+ 
+ .facebook{
+    color: blue;
+ }
+ .whatsapp {
+    color: green;
+ }
+
+
